@@ -108,12 +108,62 @@
 				<label class="text-xs font-semibold text-slate-400">Topik Matematika</label>
 				<select bind:value={topic} onchange={handleRegenerate} class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
 					<option value="random">🌟 Acak Semua Topik</option>
-					<option value="pythagoras">Tripel Pythagoras</option>
-					<option value="fpb-kpk">FPB & KPK</option>
-					<option value="quadratic">Persamaan Kuadrat</option>
-					<option value="fraction">Pecahan</option>
-					<option value="trigonometri">Trigonometri</option>
-					<option value="calculus">Kalkulus (Turunan)</option>
+					<optgroup label="── Bilangan ──">
+						<option value="bilangan-bulat">Bilangan Bulat</option>
+						<option value="bilangan-prima">Bilangan Prima</option>
+						<option value="pecahan-desimal">Pecahan & Desimal</option>
+						<option value="perbandingan">Perbandingan & Skala</option>
+						<option value="pangkat-akar">Bilangan Berpangkat & Akar</option>
+						<option value="notasi-ilmiah">Notasi Ilmiah</option>
+						<option value="konversi-satuan">Konversi Satuan</option>
+						<option value="fpb-kpk">FPB & KPK</option>
+					</optgroup>
+					<optgroup label="── Aljabar ──">
+						<option value="bentuk-aljabar">Bentuk & Operasi Aljabar</option>
+						<option value="aljabar-dasar">Persamaan Linear (PLSV / PtLSV)</option>
+						<option value="spldv">SPLDV</option>
+						<option value="quadratic">Persamaan Kuadrat</option>
+						<option value="pola-barisan">Pola & Barisan Bilangan</option>
+						<option value="deret">Deret Aritmetika & Geometri</option>
+					</optgroup>
+					<optgroup label="── Relasi & Fungsi ──">
+						<option value="relasi-domain">Relasi, Domain & Range</option>
+						<option value="fungsi-linear">Fungsi & Persamaan Garis Lurus</option>
+						<option value="fungsi-nonlinear">Fungsi Nonlinear / Kuadrat</option>
+					</optgroup>
+					<optgroup label="── Geometri Bidang ──">
+						<option value="geometri-bidang">Geometri Bidang (Segitiga, Persegi, Lingkaran)</option>
+						<option value="geometri-bidang-lanjut">Geometri Bidang Lanjut (Trapesium, Belah Ketupat, dll)</option>
+						<option value="sudut-garis">Hubungan Antar Sudut & Garis Sejajar</option>
+						<option value="kesebangunan">Kesebangunan & Kekongruenan</option>
+						<option value="pythagoras">Tripel Pythagoras</option>
+					</optgroup>
+					<optgroup label="── Geometri Ruang ──">
+						<option value="geometri-ruang">Geometri Ruang (Kubus, Balok, Tabung)</option>
+						<option value="geometri-ruang-lanjut">Geometri Ruang Lanjut (Limas, Kerucut, Bola)</option>
+					</optgroup>
+					<optgroup label="── Transformasi & Koordinat ──">
+						<option value="transformasi">Transformasi Geometri Dasar</option>
+						<option value="komposisi-transformasi">Komposisi Transformasi</option>
+						<option value="koordinat">Koordinat Kartesius</option>
+					</optgroup>
+					<optgroup label="── Statistika ──">
+						<option value="statistika">Statistika (Mean, Median, Modus)</option>
+						<option value="statistika-lanjut">Statistika Lanjut (Kuartil, Jangkauan)</option>
+					</optgroup>
+					<optgroup label="── Peluang ──">
+						<option value="peluang">Peluang Dasar</option>
+						<option value="peluang-lanjut">Peluang Lanjut & Kaidah Pencacahan</option>
+					</optgroup>
+					<optgroup label="── Matematika Terapan ──">
+						<option value="aritmetika-sosial">Aritmetika Sosial (Untung/Rugi, Diskon, Bunga)</option>
+						<option value="aritmetika-lanjut">Aritmetika Terapan (Pajak, Bruto/Neto)</option>
+						<option value="fraction">Pecahan (Operasi Dasar)</option>
+					</optgroup>
+					<optgroup label="── Lanjutan ──">
+						<option value="trigonometri">Trigonometri</option>
+						<option value="calculus">Kalkulus (Turunan)</option>
+					</optgroup>
 				</select>
 			</div>
 
