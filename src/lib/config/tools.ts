@@ -2,6 +2,18 @@ import type { Tool } from '../types/tool';
 
 export const TOOLS: Tool[] = [
   {
+    id: 'worksheet',
+    title: 'Generator Lembar Kerja Soal & PDF',
+    description: 'Buat lembar kerja latihan soal matematika otomatis beserta kunci jawaban & pembahasan siap cetak ke PDF.',
+    category: 'kalkulator',
+    route: '/math/worksheet',
+    icon: 'FileText',
+    keywords: ['worksheet', 'lembar kerja', 'soal', 'ujian', 'pdf', 'cetak', 'kunci jawaban'],
+    popular: true,
+    educationalLevel: 'Umum',
+    isMVP: false
+  },
+  {
     id: 'tripel-pythagoras',
     title: 'Tripel Pythagoras',
     description: 'Kalkulator & generator tripel Pythagoras interaktif dengan visualisasi segitiga siku-siku.',
