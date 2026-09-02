@@ -14,6 +14,30 @@ export const TOOLS: Tool[] = [
     isMVP: true
   },
   {
+    id: 'logaritma',
+    title: 'Kalkulator Logaritma',
+    description: 'Hitung logaritma basis a, logaritma natural ln(x), dan sifat-sifat logaritma.',
+    category: 'aljabar',
+    route: '/math/logaritma',
+    icon: 'Calculator',
+    keywords: ['logaritma', 'log', 'ln', 'basis', 'numerus', 'sifat'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
+    id: 'pangkat-akar',
+    title: 'Perpangkatan & Akar',
+    description: 'Perpangkatan eksponen aⁿ dan penyederhanaan bentuk akar √N.',
+    category: 'aritmetika',
+    route: '/math/pangkat-akar',
+    icon: 'Binary',
+    keywords: ['pangkat', 'akar', 'eksponen', 'penyederhanaan', 'radikal'],
+    popular: true,
+    educationalLevel: 'SMP',
+    isMVP: false
+  },
+  {
     id: 'probabilitas',
     title: 'Probabilitas & Kombinatorika',
     description: 'Kalkulator Permutasi P(n,k), Kombinasi C(n,k), Faktorial n!, dan Peluang Kejadian P(A).',
