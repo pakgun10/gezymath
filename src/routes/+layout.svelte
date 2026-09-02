@@ -25,7 +25,7 @@
 	});
 </script>
 
-<div class="min-h-screen flex flex-col bg-slate-950 text-slate-100 selection:bg-indigo-500 selection:text-white">
+<div class="app-container min-h-screen flex flex-col bg-slate-950 text-slate-100 selection:bg-indigo-500 selection:text-white">
 	<Header onOpenSearch={() => (isSearchOpen = true)} />
 
 	<div class="flex flex-1 w-full max-w-7xl mx-auto">

@@ -12,6 +12,10 @@ describe('Exponent & Radical & Logarithm Algorithms', () => {
     // √25 = 5
     const res25 = simplifyRadical(25);
     expect(res25.formatted).toBe('5');
+
+    // Edge cases
+    const resLarge = simplifyRadical(1e13);
+    expect(resLarge.formatted).toBe('√10000000000000');
   });
 
   it('calculates logarithm correctly', () => {

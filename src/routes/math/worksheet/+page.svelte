@@ -170,7 +170,7 @@
 
 						{#if p.questionLatex}
 							<div class="pl-7 py-1">
-								<FormulaDisplay formula={p.questionLatex} displayMode={true} />
+								<FormulaDisplay latex={p.questionLatex} displayMode={true} />
 							</div>
 						{/if}
 

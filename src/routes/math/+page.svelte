@@ -68,7 +68,7 @@
 			</div>
 
 			<h1 class="text-3xl md:text-5xl font-extrabold font-heading text-slate-100 tracking-tight leading-tight">
-				Eksplorasi & Hitung Matematika dengan <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Visualisasi Real-Time</span>
+				Eksplorasi & Hitung Matematika dengan <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hero-title-gradient">Visualisasi Real-Time</span>
 			</h1>
 
 			<p class="text-slate-400 text-base md:text-lg leading-relaxed">

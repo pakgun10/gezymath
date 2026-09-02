@@ -27,7 +27,7 @@
 				<Calculator class="w-5 h-5" />
 			</div>
 			<div>
-				<span class="text-lg font-extrabold font-heading tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">
+				<span class="text-lg font-extrabold font-heading tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent brand-logo-text">
 					GezyMath
 				</span>
 				<span class="text-[10px] font-semibold tracking-wider text-indigo-400 block -mt-1 uppercase">

@@ -19,7 +19,7 @@ export interface ExponentRadicalResult {
 }
 
 export function simplifyRadical(num: number): { coef: number; inside: number; formatted: string } {
-  if (num <= 0 || !Number.isInteger(num)) {
+  if (num <= 0 || !Number.isInteger(num) || num > 1e12 || Number.isNaN(num)) {
     return { coef: 1, inside: num, formatted: `√${num}` };
   }
 
