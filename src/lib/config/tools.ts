@@ -14,6 +14,18 @@ export const TOOLS: Tool[] = [
     isMVP: true
   },
   {
+    id: 'probabilitas',
+    title: 'Probabilitas & Kombinatorika',
+    description: 'Kalkulator Permutasi P(n,k), Kombinasi C(n,k), Faktorial n!, dan Peluang Kejadian P(A).',
+    category: 'kombinatorika',
+    route: '/math/probabilitas',
+    icon: 'Dices',
+    keywords: ['probabilitas', 'peluang', 'permutasi', 'kombinasi', 'faktorial', 'kejadian', 'sampel'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
     id: 'trigonometri',
     title: 'Kalkulator Trigonometri',
     description: 'Fungsi Sin, Cos, Tan, visualisasi Lingkaran Satuan (Unit Circle), dan Aturan Kosinus Segitiga.',
