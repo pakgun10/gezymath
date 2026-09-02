@@ -14,6 +14,18 @@ export const TOOLS: Tool[] = [
     isMVP: true
   },
   {
+    id: 'trigonometri',
+    title: 'Kalkulator Trigonometri',
+    description: 'Fungsi Sin, Cos, Tan, visualisasi Lingkaran Satuan (Unit Circle), dan Aturan Kosinus Segitiga.',
+    category: 'trigonometri',
+    route: '/math/trigonometri',
+    icon: 'Compass',
+    keywords: ['trigonometri', 'sin', 'cos', 'tan', 'sudut', 'lingkaran satuan', 'kosinus'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
     id: 'fpb-kpk',
     title: 'FPB & KPK',
     description: 'Hitung Faktor Persekutuan Terbesar & Kelipatan Persekutuan Terkecil dengan pohon faktor prima.',
