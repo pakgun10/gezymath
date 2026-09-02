@@ -44,7 +44,7 @@
 			</div>
 			<h1 class="text-3xl font-extrabold font-heading text-slate-100">Kalkulator Probabilitas & Kombinatorika</h1>
 			<p class="text-slate-400 text-sm max-w-2xl">
-				Hitung Faktorial ($n!$), Permutasi ($P_{n,k}$), Kombinasi ($C_{n,k}$), serta Peluang Kejadian $P(A) = \frac{n(A)}{n(S)}$.
+				Hitung Faktorial (n!), Permutasi P(n,k), Kombinasi C(n,k), serta Peluang Kejadian P(A) = n(A)/n(S).
 			</p>
 		</div>
 		<ExportPrintButton title="Laporan Probabilitas GezyMath" />

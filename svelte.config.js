@@ -11,7 +11,12 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: false
-		})
+		}),
+		prerender: {
+			handleHttpError: ({ path, referrer, message }) => {
+				console.warn(`Prerender warning for ${path}: ${message}`);
+			}
+		}
 	}
 };
 

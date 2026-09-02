@@ -29,7 +29,7 @@
 	<title>Sistem Persamaan Linear Dua Variabel (SPLDV) | GezyMath</title>
 	<meta
 		name="description"
-		content="Kalkulator SPLDV Aturan Cramer. Cari himpunan penyelesaian HP = {(x, y)} dan grafik persilangan garis lurus."
+		content="Kalkulator SPLDV Aturan Cramer. Cari himpunan penyelesaian HP = (x, y) dan grafik persilangan garis lurus."
 	/>
 </svelte:head>
 

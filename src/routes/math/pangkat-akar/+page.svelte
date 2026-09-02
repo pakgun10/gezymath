@@ -36,7 +36,7 @@
 			</div>
 			<h1 class="text-3xl font-extrabold font-heading text-slate-100">Kalkulator Perpangkatan & Bentuk Akar</h1>
 			<p class="text-slate-400 text-sm max-w-2xl">
-				Hitung hasil eksponen perpangkatan $a^n$ dan sederhanakan bentuk akar $\sqrt{N} = a\sqrt{b}$.
+				Hitung hasil eksponen perpangkatan aⁿ dan sederhanakan bentuk akar √N = a√b.
 			</p>
 		</div>
 		<ExportPrintButton title="Laporan Pangkat & Akar GezyMath" />

@@ -36,7 +36,7 @@
 			</div>
 			<h1 class="text-3xl font-extrabold font-heading text-slate-100">Kalkulator Logaritma</h1>
 			<p class="text-slate-400 text-sm max-w-2xl">
-				Hitung nilai logaritma $\log_a(b)$, logaritma natural $\ln(x)$, logaritma basis 10, dan sifat-sifat logaritma.
+				Hitung nilai logaritma ᵃlog(b), logaritma natural ln(x), logaritma basis 10, dan sifat-sifat logaritma.
 			</p>
 		</div>
 		<ExportPrintButton title="Laporan Logaritma GezyMath" />

@@ -38,7 +38,7 @@
 			</div>
 			<h1 class="text-3xl font-extrabold font-heading text-slate-100">Kalkulator Integral Tentu & Tak Tentu</h1>
 			<p class="text-slate-400 text-sm max-w-2xl">
-				Hitung anti-turunan $F(x) + C$ dan nilai integral tentu $\int_a^b f(x) dx$ beserta visualisasi luas daerah.
+				Hitung anti-turunan F(x) + C dan nilai integral tentu ∫ f(x) dx beserta visualisasi luas daerah.
 			</p>
 		</div>
 		<ExportPrintButton title="Laporan Integral GezyMath" />

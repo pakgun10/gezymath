@@ -36,7 +36,7 @@
 			</div>
 			<h1 class="text-3xl font-extrabold font-heading text-slate-100">Kalkulator Turunan (Differensial)</h1>
 			<p class="text-slate-400 text-sm max-w-2xl">
-				Hitung turunan pertama $f'(x)$ dari fungsi polinomial beserta gradien dan persamaan garis singgung di titik $x_0$.
+				Hitung turunan pertama f'(x) dari fungsi polinomial beserta gradien dan persamaan garis singgung di titik x₀.
 			</p>
 		</div>
 		<ExportPrintButton title="Laporan Turunan Differensial GezyMath" />
