@@ -26,6 +26,30 @@ export const TOOLS: Tool[] = [
     isMVP: false
   },
   {
+    id: 'turunan',
+    title: 'Turunan (Differensial)',
+    description: 'Kalkulator turunan f\'(x), gradien garis singgung, dan persamaan garis singgung.',
+    category: 'kalkulus',
+    route: '/math/turunan',
+    icon: 'LineChart',
+    keywords: ['turunan', 'differensial', 'kalkulus', 'gradien', 'garis singgung', 'pangkat'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
+    id: 'integral',
+    title: 'Integral Tentu & Tak Tentu',
+    description: 'Hitung anti-turunan F(x) + C dan luas daerah di bawah kurva dengan visualisasi interaktif.',
+    category: 'kalkulus',
+    route: '/math/integral',
+    icon: 'Sigma',
+    keywords: ['integral', 'luas', 'kurva', 'anti-turunan', 'kalkulus', 'tentu'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
     id: 'fpb-kpk',
     title: 'FPB & KPK',
     description: 'Hitung Faktor Persekutuan Terbesar & Kelipatan Persekutuan Terkecil dengan pohon faktor prima.',
