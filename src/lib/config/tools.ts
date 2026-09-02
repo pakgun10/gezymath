@@ -14,6 +14,18 @@ export const TOOLS: Tool[] = [
     isMVP: true
   },
   {
+    id: 'barisan-deret',
+    title: 'Barisan & Deret',
+    description: 'Hitung suku ke-n (Un), jumlah n suku (Sn) Aritmetika & Geometri, serta deret tak hingga.',
+    category: 'aljabar',
+    route: '/math/barisan-deret',
+    icon: 'LineChart',
+    keywords: ['barisan', 'deret', 'aritmetika', 'geometri', 'suku', 'rasio', 'beda'],
+    popular: true,
+    educationalLevel: 'SMA',
+    isMVP: false
+  },
+  {
     id: 'logaritma',
     title: 'Kalkulator Logaritma',
     description: 'Hitung logaritma basis a, logaritma natural ln(x), dan sifat-sifat logaritma.',
