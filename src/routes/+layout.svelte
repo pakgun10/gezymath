@@ -30,8 +30,15 @@
 
 	<div class="flex flex-1 w-full max-w-7xl mx-auto">
 		<Sidebar />
-		<main class="flex-1 p-4 md:p-6 lg:p-8 mb-16 lg:mb-0 w-full overflow-x-hidden">
-			{@render children()}
+		<main class="flex-1 p-4 md:p-6 lg:p-8 mb-16 lg:mb-0 w-full overflow-x-hidden flex flex-col justify-between">
+			<div class="flex-1">
+				{@render children()}
+			</div>
+
+			<!-- Global Footer -->
+			<footer class="mt-12 pt-6 border-t border-slate-800/80 text-center text-xs text-slate-400 font-sans print:hidden">
+				<p>© 2026 GezyMath Platform by Pak Gun. All rights reserved.</p>
+			</footer>
 		</main>
 	</div>
 
