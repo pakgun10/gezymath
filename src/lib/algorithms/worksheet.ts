@@ -46,7 +46,7 @@ export function generateWorksheet(options: WorksheetOptions): WorksheetProblem[]
   return problems;
 }
 
-function generateSingleProblem(id: number, topic: string): WorksheetProblem {
+export function generateSingleProblem(id: number, topic: string): WorksheetProblem {
   switch (topic) {
     case 'pythagoras': {
       // Pick a random Pythagorean triple multiplier
